@@ -3,7 +3,7 @@ public class LowerBound {
         int length = arr.length;
         int start = 0;
         int end = length - 1;
-        int target = 1;
+        int target = 12;
         int ans = length;
         while (start <= end) {
             int mid = start + (end - start) / 2;
