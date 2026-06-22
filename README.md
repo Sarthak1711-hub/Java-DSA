@@ -16,4 +16,4 @@ java FileName
 
 ## Author
 
-**Sarthak** — MCA Student, Amity University Noida
+**Sarthak** — MCA Student
