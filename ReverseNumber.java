@@ -14,7 +14,6 @@ public class ReverseNumber {
 
         System.out.println(reversedNumber);
     }
-
     public static void main(String[] args) {
         int number = 123;
         reverseNumber(number);
