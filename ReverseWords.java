@@ -9,13 +9,11 @@ public class ReverseWords {
         while (i >= 0) {
 
             int j = i;
-
-            // Find the beginning of the current word
+            
             while (j >= 0 && str.charAt(j) != ' ') {
                 j--;
             }
 
-            // Append the word
             ans.append(str.substring(j + 1, i + 1));
 
             if (j > 0) {
@@ -30,7 +28,7 @@ public class ReverseWords {
 
     public static void main(String[] args) {
 
-        String str = "  IAM Maam";
+        String str = "  I LOVE JAVA";
 
         System.out.println(reverseWords(str));
     }
