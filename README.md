@@ -1,6 +1,6 @@
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=flat-square&logo=openjdk)
-![Programs](https://img.shields.io/badge/Programs-51-blue?style=flat-square)
-![Topics](https://img.shields.io/badge/Topics-6-blueviolet?style=flat-square)
+![Programs](https://img.shields.io/badge/Programs-69-blue?style=flat-square)
+![Topics](https://img.shields.io/badge/Topics-8-blueviolet?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 # Java-DSA
@@ -50,6 +50,9 @@ java FileName
 | `ArrayFrequencyAnalysis.java` | Frequency of each element |
 | `RemoveDuplicatesUsingHashSet.java` | Remove duplicates via HashSet |
 | `FindUnsortedElement.java` | Find unsorted element in array |
+| `RemoveAllOccurrence.java` | Remove all occurrences of a given element |
+| `MaxFrequency.java` | Element with maximum frequency |
+| `MaximumOnes.java` | Row/array with maximum number of ones |
 
 ### Searching
 | File | Description |
@@ -59,10 +62,26 @@ java FileName
 | `UpperBound.java` | Upper bound in sorted array |
 | `LowerBound.java` | Lower bound in sorted array |
 | `NumberOfOccurrences.java` | Count occurrences in sorted array |
+| `FirstOccurance.java` | First occurrence of an element |
 | `PeakIndexInMountainArray.java` | Peak index in mountain array |
 | `PivotIndex.java` | Find pivot index |
 | `PivotIndexInRotatedArray.java` | Pivot in rotated sorted array |
 | `SearchInRotatedArray.java` | Binary search in rotated array |
+| `SearchAlmostSortedArray.java` | Search in an almost sorted array |
+| `SingleNonDuplicate.java` | Find the single non-duplicate element |
+| `UnboundedSearch.java` | Search in an unbounded/infinite array |
+| `Search2DMatrixI.java` | Search in a 2D matrix (variant I) |
+| `Search2DMatrixII.java` | Search in a 2D matrix (variant II) |
+
+### Binary Search on Answer
+| File | Description |
+|------|-------------|
+| `BinarySearchOnAnswers.java` | Generic binary search on the answer space |
+| `PainterPartition.java` | Painter's partition problem |
+| `BookAllocationProblem.java` | Allocate books minimizing max pages |
+| `AggresiveCows.java` | Aggressive cows placement problem |
+| `EKOSPOJProblem.java` | SPOJ EKO — wood cutting problem |
+| `RotiPrathaProblem.java` | Roti/Prata making problem |
 
 ### Sorting
 | File | Description |
@@ -88,6 +107,9 @@ java FileName
 | `LetterFrequency.java` | Frequency of each letter |
 | `ConvertToUppercase.java` | Convert string to uppercase |
 | `CountConsonants.java` | Count consonants in string |
+| `ReverseWords.java` | Reverse words in a string |
+| `StringCompression.java` | Compress a string using counts |
+| `RemoveAdjacentDuplicates.java` | Remove adjacent duplicate characters |
 
 ### Classic Problems
 | File | Description |
@@ -96,10 +118,8 @@ java FileName
 | `ThreeSum.java` | Three Sum problem |
 
 ## Tech Stack
-
 - Language: Java
 - IDE: Any (VS Code / IntelliJ / Eclipse)
 
 ## Author
-
 **Sarthak** — MCA Student, Amity University Noida
