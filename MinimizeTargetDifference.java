@@ -8,7 +8,8 @@ public class MinimizeTargetDifference {
 
         // Recursive Case
         int minVal = Integer.MAX_VALUE;
-        for (int col = 0; col < mat[row].length; col++) {
+        for (int col = 0; col < mat[0].length; col++) {
+            
             int answer = solve(mat, target, row + 1, currentSum + mat[row][col]);
 
             minVal = Math.min(minVal, answer);
