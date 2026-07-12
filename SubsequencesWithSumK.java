@@ -1,4 +1,4 @@
-public class SubsequencesWithSumUsingRecursion {
+public class SubsequencesWithSumK {
     static boolean solve(int[] arr, int index, int currentSum, int targetSum) {
 
         if (index == arr.length) {
