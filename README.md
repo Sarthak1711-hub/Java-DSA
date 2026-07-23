@@ -1,6 +1,6 @@
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=flat-square&logo=openjdk)
-![Programs](https://img.shields.io/badge/Programs-69-blue?style=flat-square)
-![Topics](https://img.shields.io/badge/Topics-8-blueviolet?style=flat-square)
+![Programs](https://img.shields.io/badge/Programs-95-blue?style=flat-square)
+![Topics](https://img.shields.io/badge/Topics-11-blueviolet?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 # Java-DSA
@@ -53,6 +53,7 @@ java FileName
 | `RemoveAllOccurrence.java` | Remove all occurrences of a given element |
 | `MaxFrequency.java` | Element with maximum frequency |
 | `MaximumOnes.java` | Row/array with maximum number of ones |
+| `MergeSortedArray.java` | Merge two sorted arrays |
 
 ### Searching
 | File | Description |
@@ -110,6 +111,43 @@ java FileName
 | `ReverseWords.java` | Reverse words in a string |
 | `StringCompression.java` | Compress a string using counts |
 | `RemoveAdjacentDuplicates.java` | Remove adjacent duplicate characters |
+
+### Recursion
+| File | Description |
+|------|-------------|
+| `FactorialUsingRecursion.java` | Factorial via recursion |
+| `FibonacciSeriesUsingRecursion.java` | Fibonacci series via recursion |
+| `PowerOfTwoUsingRecursion.java` | Check power of two via recursion |
+| `PrintNameUsingRecursion.java` | Print name N times via recursion |
+| `PrintingDigitsUsingRecursion.java` | Print digits of a number via recursion |
+| `CountOccurencesUsingRecursion.java` | Count occurrences via recursion |
+| `LinearSearchUsingRecursion.java` | Linear search via recursion |
+| `BinarySearchUsingRecursion.java` | Binary search via recursion |
+| `MaxMinUsingRecursion.java` | Find max and min via recursion |
+| `JumpGameUsingRecursion.java` | Jump game via recursion |
+| `ArrayRecursionOperations.java` | Common array operations via recursion |
+
+### Backtracking
+| File | Description |
+|------|-------------|
+| `Subsets.java` | Generate all subsets |
+| `SubSets2.java` | Generate all unique subsets (with duplicates) |
+| `StringPermutation.java` | Generate all permutations of a string |
+| `RatInMaze.java` | Rat in a Maze pathfinding problem |
+| `NQueens.java` | N-Queens problem |
+| `SudokuSolver.java` | Sudoku solver |
+| `PhoneKeypadProblem.java` | Letter combinations of a phone keypad |
+
+### Dynamic Programming
+| File | Description |
+|------|-------------|
+| `ClimbingStairs.java` | Climbing stairs problem |
+| `HouseRobberProblem.java` | House robber problem |
+| `BuySellStocks.java` | Best time to buy and sell stock |
+| `TriangleMinimumPathSum.java` | Minimum path sum in a triangle |
+| `MinimizeTargetDifference.java` | Minimize subset sum difference |
+| `PartitionEqualSubsetSum.java` | Partition equal subset sum |
+| `SubsequencesWithSumK.java` | Count subsequences with sum K |
 
 ### Classic Problems
 | File | Description |
