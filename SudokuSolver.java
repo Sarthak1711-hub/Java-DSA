@@ -18,7 +18,7 @@ public class SudokuSolver {
     }
 
     static boolean isSafe(char[][] board, int row, int col, char digit) {
-
+        
         for (int colIndex = 0; colIndex < 9; colIndex++) {
             if (board[row][colIndex] == digit) {
                 return false;
@@ -31,6 +31,7 @@ public class SudokuSolver {
             }
         }
 
+        // Check 3x3 box
         int startRowIndex = row - row % 3;
         int startColIndex = col - col % 3;
 
@@ -53,6 +54,7 @@ public class SudokuSolver {
 
         int[] emptyCell = new int[2];
 
+        // Base Case
         if (!findEmptyCell(board, emptyCell)) {
             return true;
         }
@@ -60,18 +62,22 @@ public class SudokuSolver {
         int rowIndex = emptyCell[0];
         int colIndex = emptyCell[1];
 
+        // Try digits 1 to 9
         for (int value = 1; value <= 9; value++) {
 
             char charValue = (char) (value + '0');
 
             if (isSafe(board, rowIndex, colIndex, charValue)) {
 
+                // Place digit
                 board[rowIndex][colIndex] = charValue;
 
+                // Recurse
                 if (solveSudokuHelper(board)) {
                     return true;
                 }
 
+                // Backtrack
                 board[rowIndex][colIndex] = '.';
             }
         }
