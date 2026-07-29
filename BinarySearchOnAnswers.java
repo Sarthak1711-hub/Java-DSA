@@ -1,4 +1,3 @@
-
 public class BinarySearchOnAnswers {
     public static int binarySearch(int[] arr, int n) {
         int length = arr.length;
