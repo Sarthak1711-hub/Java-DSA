@@ -1,5 +1,5 @@
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=flat-square&logo=openjdk)
-![Programs](https://img.shields.io/badge/Programs-95-blue?style=flat-square)
+![Programs](https://img.shields.io/badge/Programs-96-blue?style=flat-square)
 ![Topics](https://img.shields.io/badge/Topics-11-blueviolet?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
