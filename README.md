@@ -1,6 +1,6 @@
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=flat-square&logo=openjdk)
-![Programs](https://img.shields.io/badge/Programs-96-red?style=flat-square)
-![Topics](https://img.shields.io/badge/Topics-11-blueviolet?style=flat-square)
+![Programs](https://img.shields.io/badge/Programs-106-red?style=flat-square)
+![Topics](https://img.shields.io/badge/Topics-12-blueviolet?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 # Java-DSA 
@@ -23,6 +23,7 @@ java FileName
 | `ArmstrongNumberChecker.java` | Armstrong number detection |
 | `PrimeNumberChecker.java` | Primality test |
 | `PrintAllPrime.java` | Print all primes in a range |
+| `PrintEvenNumbers.java` | Print even numbers in a range |
 | `FactorialCalculator.java` | Factorial computation |
 | `CountDigits.java` | Count digits in a number |
 | `SumOfDigits.java` | Sum of digits |
@@ -90,6 +91,17 @@ java FileName
 | `BubbleSort.java` | Bubble sort |
 | `SelectionSort.java` | Selection sort |
 | `InsertionSort.java` | Insertion sort |
+| `MergeSort.java` | Merge sort |
+| `QuickSort.java` | Quick sort |
+| `CountInversion.java` | Count inversions in an array (merge sort based) |
+
+### Linked List
+| File | Description |
+|------|-------------|
+| `TraversalLinkedList.java` | Traverse a linked list |
+| `InsertionLinkedList.java` | Insert a node into a linked list |
+| `DeletionLinkedList.java` | Delete a node from a linked list |
+| `UpdateValueLinkedList.java` | Update a value at a given position |
 
 ### Matrix (2D Arrays)
 | File | Description |
@@ -105,6 +117,7 @@ java FileName
 | File | Description |
 |------|-------------|
 | `PalindromeChecker.java` | Check palindrome string |
+| `ValidPalindrome.java` | Check if a string is a valid palindrome (ignoring non-alphanumerics) |
 | `LetterFrequency.java` | Frequency of each letter |
 | `ConvertToUppercase.java` | Convert string to uppercase |
 | `CountConsonants.java` | Count consonants in string |
@@ -126,6 +139,8 @@ java FileName
 | `MaxMinUsingRecursion.java` | Find max and min via recursion |
 | `JumpGameUsingRecursion.java` | Jump game via recursion |
 | `ArrayRecursionOperations.java` | Common array operations via recursion |
+| `LastIndexRecursion.java` | Find last index of an element via recursion |
+| `TowerOfHanoi.java` | Tower of Hanoi problem |
 
 ### Backtracking
 | File | Description |
