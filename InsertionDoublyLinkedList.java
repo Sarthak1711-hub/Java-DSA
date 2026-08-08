@@ -86,8 +86,7 @@ public class InsertionDoublyLinkedList {
         forward.prev = newNode;
         size++;
 
-        System.out.println(
-                "Inserted " + data + " at position " + position + ".");
+        System.out.println("Inserted " + data + " at position " + position + ".");
     }
 
     public void displayForward() {
