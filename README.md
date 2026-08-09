@@ -3,7 +3,7 @@
 ![Topics](https://img.shields.io/badge/Topics-12-blueviolet?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-# Java-DSA 
+# Java-DSA
 
 A collection of Java programs covering core Data Structures & Algorithms concepts, built for practice and learning.
 
