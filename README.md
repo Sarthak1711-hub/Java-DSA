@@ -10,7 +10,7 @@ A collection of Java programs covering core Data Structures & Algorithms concept
 ## How to Run
 
 ```bash
-javac FileName.java
+javac FileName.java 
 java FileName
 ```
 
