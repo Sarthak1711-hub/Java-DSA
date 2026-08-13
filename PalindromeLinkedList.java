@@ -41,8 +41,8 @@ public class PalindromeLinkedList {
             previous = current;
 
             current = forward;
+            System.out.println("previous points to: " + previous.data);
         }
-
         return previous;
     }
 
@@ -56,7 +56,6 @@ public class PalindromeLinkedList {
         mid.next = null;
 
         // 3. reverse the linked list
-        Node previous = reverse(temp);
 
         // 4. compare the data from 2 halves
         if (head == null || head.next == null) {
@@ -64,7 +63,7 @@ public class PalindromeLinkedList {
         }
 
         Node first = head;
-        Node second = previous;
+        Node second = reverse(temp);
 
         while (first != null && second != null) {
             if (first.data == second.data) {
