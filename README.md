@@ -7,7 +7,7 @@
 
 A collection of Java programs covering core Data Structures & Algorithms concepts, built for practice and learning.
 
-## How to Run
+## How to Run 
 
 ```bash
 javac FileName.java 
