@@ -1,5 +1,5 @@
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=flat-square&logo=openjdk)
-![Programs](https://img.shields.io/badge/Programs-106-red?style=flat-square)
+![Programs](https://img.shields.io/badge/Programs-117-red?style=flat-square)
 ![Topics](https://img.shields.io/badge/Topics-12-blueviolet?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
@@ -102,6 +102,17 @@ java FileName
 | `InsertionLinkedList.java` | Insert a node into a linked list |
 | `DeletionLinkedList.java` | Delete a node from a linked list |
 | `UpdateValueLinkedList.java` | Update a value at a given position |
+| `InsertionDoublyLinkedList.java` | Insert a node into a doubly linked list |
+| `DeletionDoublyLinkedList.java` | Delete a node from a doubly linked list |
+| `ReverseLinkedList.java` | Reverse a linked list |
+| `CycleDetection.java` | Detect a cycle in a linked list |
+| `MergeTwoSortedLists.java` | Merge two sorted linked lists |
+| `DeleteDuplicateNode.java` | Delete duplicate nodes from a sorted linked list |
+| `OddEvenLinkedList.java` | Group odd and even indexed nodes together |
+| `PalindromeLinkedList.java` | Check if a linked list is a palindrome |
+| `KthNode.java` | Find the Kth node from the end |
+| `MergeNodesInBetweenZeroes.java` | Merge nodes between zero markers |
+| `IntersectionOfLinkedList.java` | Find the intersection point of two linked lists |
 
 ### Matrix (2D Arrays)
 | File | Description |
