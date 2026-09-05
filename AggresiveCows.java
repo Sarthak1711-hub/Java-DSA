@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
-public class AggresiveCows {
-
+public class AggresiveCows 
+{
     static boolean isValidAnswer(int[] stalls, int cows, int mid) {
         int cowsCount = 1;
         int lastPosition = 0;
