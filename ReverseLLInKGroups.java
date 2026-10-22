@@ -51,7 +51,6 @@ public class ReverseLLInKGroups {
     public static void main(String[] args) {
         ReverseLLInKGroups solution = new ReverseLLInKGroups();
 
-        // Create linked list: 1 -> 2 -> 3 -> 4 -> 5
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);
@@ -62,7 +61,6 @@ public class ReverseLLInKGroups {
 
         head = solution.reverseKGroup(head, k);
 
-        // Print linked list
         ListNode current = head;
         while (current != null) {
             System.out.print(current.val + " -> ");
