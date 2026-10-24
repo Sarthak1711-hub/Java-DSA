@@ -1,16 +1,19 @@
-
 public class StackOperations {
 
     static class MyStack 
     {
-        private int[] arr;
-        private int capacity;
-        private int top;
+        /* Second this code will execute */
+       
+        private int[] arr;    // arr = null
+        private int capacity;  // capacity = 0
+        private int top; // top = 0
+
+        /* Third this code will execute */
 
         public MyStack(int capacity) {
-            this.capacity = capacity;
-            arr = new int[capacity];
-            this.top = -1;
+            this.capacity = capacity; // capacity = 0 --> 3
+            arr = new int[capacity];  // arr = null --> [3]
+            this.top = -1;  // top = 0 --> -1
         }
 
         public void push(int value) {
@@ -55,7 +58,10 @@ public class StackOperations {
     }
 
     public static void main(String[] args) {
-        MyStack st = new MyStack(3);
+
+        
+        /*Fourth after constructor execution completes the object reference is assigned to st.*/
+        MyStack st = new MyStack(3); /* First this code will execute */
 
         st.push(10);
         st.push(20);
