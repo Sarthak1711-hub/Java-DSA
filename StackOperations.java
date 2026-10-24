@@ -60,12 +60,12 @@ public class StackOperations {
         st.push(10);
         st.push(20);
 
-        System.out.println(st.peek());       // 20
-        System.out.println(st.getSize());    // 2
-        System.out.println(st.checkEmpty()); // false
+        System.out.println(st.peek());       
+        System.out.println(st.getSize());    
+        System.out.println(st.checkEmpty()); 
 
         st.pop();
 
-        System.out.println(st.peek());       // 10
+        System.out.println(st.peek());       
     }
 }
