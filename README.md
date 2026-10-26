@@ -1,6 +1,6 @@
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=flat-square&logo=openjdk)
-![Programs](https://img.shields.io/badge/Programs-117-red?style=flat-square)
-![Topics](https://img.shields.io/badge/Topics-12-blueviolet?style=flat-square)
+![Programs](https://img.shields.io/badge/Programs-133-red?style=flat-square)
+![Topics](https://img.shields.io/badge/Topics-13-blueviolet?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 # Java-DSA   
@@ -105,7 +105,9 @@ java FileName
 | `InsertionDoublyLinkedList.java` | Insert a node into a doubly linked list |
 | `DeletionDoublyLinkedList.java` | Delete a node from a doubly linked list |
 | `ReverseLinkedList.java` | Reverse a linked list |
+| `ReverseLLInKGroups.java` | Reverse a linked list in groups of K |
 | `CycleDetection.java` | Detect a cycle in a linked list |
+| `RemoveFirstNodeofCycle.java` | Find and remove the starting node of a cycle |
 | `MergeTwoSortedLists.java` | Merge two sorted linked lists |
 | `DeleteDuplicateNode.java` | Delete duplicate nodes from a sorted linked list |
 | `OddEvenLinkedList.java` | Group odd and even indexed nodes together |
@@ -113,6 +115,24 @@ java FileName
 | `KthNode.java` | Find the Kth node from the end |
 | `MergeNodesInBetweenZeroes.java` | Merge nodes between zero markers |
 | `IntersectionOfLinkedList.java` | Find the intersection point of two linked lists |
+| `Sort012InLinkedList.java` | Sort a linked list of 0s, 1s and 2s |
+| `SwapNodesInLinkedList.java` | Swap nodes in a linked list |
+| `RotateLinkedList.java` | Rotate a linked list by K positions |
+| `PartitionLinkedList.java` | Partition a list around a given value |
+| `SplitLinkedListIntoParts.java` | Split a linked list into K consecutive parts |
+| `DeleteNNodesAfterMNodes.java` | Keep M nodes, delete the next N nodes, repeat |
+| `NodesBetweenCriticalPoints.java` | Min/max distance between critical points |
+| `FlattenMultiLevelLL.java` | Flatten a multi-level linked list |
+| `DeepCopyLinkedList.java` | Deep copy a linked list with random pointers |
+
+### Stack
+| File | Description |
+|------|-------------|
+| `StackOperations.java` | Basic stack operations |
+| `ReverseStack.java` | Reverse a stack using recursion |
+| `InsertAtBottomOfStack.java` | Insert an element at the bottom of a stack |
+| `MiddleElementOfStack.java` | Find the middle element of a stack |
+| `ValidParentheses.java` | Check for balanced/valid parentheses |
 
 ### Matrix (2D Arrays)
 | File | Description |
