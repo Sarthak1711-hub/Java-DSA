@@ -43,17 +43,17 @@ public class InsertAtBottomOfStack {
         }
 
         public void InsertAtBottom(int val) {
-
-            int temp = val;
             if (top == -1) {
-                push(temp);
+                push(val);
                 return;
             }
-            temp = peek();
-            pop();
-            InsertAtBottom(val);
-            push(temp);
 
+            int temp = peek();
+            pop();
+
+            InsertAtBottom(val);
+
+            push(temp);
         }
 
     }
@@ -68,6 +68,8 @@ public class InsertAtBottomOfStack {
         int length = st.getSize();
         System.out.println("the length is: " + length);
         st.InsertAtBottom(55);
-
+        for (int i = 0; i <= st.top; i++) {
+            System.out.println(st.arr[i]);
+        }
     }
 }
