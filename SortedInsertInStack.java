@@ -37,31 +37,10 @@ public class SortedInsertInStack {
             return arr[top];
         }
 
-        public int getSize() {
-            return top + 1;
-        }
-
         public boolean isEmpty() {
             return top == -1;
         }
 
-        // public void SortedInsert(MyStack st, int val) {
-
-        // if (st.getSize() <= 1) {
-        // return;
-        // }
-
-        // int firstVal = st.peek();
-
-        // if (val < firstVal) {
-        // pop();
-        // SortedInsert(st, val);
-        // push(firstVal);
-
-        // } else {
-        // push(val);
-        // return;
-        // }
         public void SortedInsert(MyStack st, int x) {
             if (st.isEmpty()) {
                 st.push(x);
