@@ -90,7 +90,7 @@ public class SimplifyPath {
 
                     // str.append("/");
                     // str.append(st.removeLast());
-                    str.insert(0, "/" + st.removeLast());
+                    str.insert(0, "/" + st.removeLast()); // new concept
                 }
 
                 return str.toString();
