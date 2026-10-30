@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class StockSpanProblem {
 
     static class MyStack {
@@ -68,7 +66,7 @@ public class StockSpanProblem {
                     break;
                 }
             }
-            
+
             return span;
         }
 
