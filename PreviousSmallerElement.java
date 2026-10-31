@@ -45,7 +45,7 @@ public class PreviousSmallerElement {
 
     public static void main(String[] args) {
 
-        int[] arr = { 4, 8, 5, 2, 25 };
+        int[] arr = { 1, 5, 0, 3, 4, 5 };
 
         ArrayList<Integer> result = PreviousSmaller(arr);
 
