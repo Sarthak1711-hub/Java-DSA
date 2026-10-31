@@ -17,6 +17,7 @@ public class NextSmallerElement {
         }
 
         // Step 2: Monotonic Stack Pattern
+        
         for (int i = n - 1; i >= 0; i--) {
 
             int currentElement = arr[i];
