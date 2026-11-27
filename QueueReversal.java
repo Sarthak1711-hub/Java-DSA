@@ -40,7 +40,7 @@ public class QueueReversal {
 
         QueueReversal obj = new QueueReversal();
 
-        obj.enqueue(10);
+        obj.enqueue(10); 
         obj.enqueue(20);
         obj.enqueue(30);
         obj.enqueue(40);
